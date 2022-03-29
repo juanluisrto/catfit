@@ -5,9 +5,8 @@ Assume we have a set of features `X` and its corresponding labels `y`(with `k` d
 The idea is to assign an axis in `R^k` to each of the labels and find a curve/surface which transforms `X` into `R^k`,
 such that the coordinate with maximum absolute value of each point corresponds with the axis assigned to the label of that point.
 
-For example if a point in X is labelled as "A" and we have assign this label to the "Z" axis, the point would ideally get mapped to (2,-3,4), for example, where the value of the "Z" coordinate is higher.
+For example if a point in X is labelled as "A" and we have assign this label to the "Z" axis, the point could possibly get mapped to (2,-3,4), where the value of the "Z" coordinate is higher.
 
- with in order to classify each point 
 
 The parametrization for a single feature `t` is defined like this:
 
