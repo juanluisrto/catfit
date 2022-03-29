@@ -16,7 +16,7 @@ The parametrization for a single feature `t` is defined like this:
 The cost function is defined like this:
 ```
 p_0, p_1, ... p_k = g(t)
-J(p) = max(|x_0|,|x_1|, ...|x_k|) - |correct_coord(p_0, p_1, ... p_k)|
+J(p) = max(|p_0|,|p_1|, ...|p_k|) - |correct_coord(p_0, p_1, ... p_k)|
 ```
 
 Identified problems with the current implementation:
